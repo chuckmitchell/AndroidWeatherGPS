@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget37"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget28"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Welcome to DroidWeather!"
+android:textSize="22sp"
+android:layout_x="25px"
+android:layout_y="47px"
+>
+</TextView>
+
+<RadioGroup
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_x="34px"
+    android:layout_y="102px"
+    >
+<RadioButton
+android:id="@+id/getLocation"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Get my location"
+android:layout_x="34px"
+android:layout_y="102px"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/specifyLocation"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Specify location:"
+android:layout_x="34px"
+android:layout_y="167px"
+>
+</RadioButton>
+</RadioGroup>
+<EditText
+android:layout_width="232px"
+android:layout_height="wrap_content"
+android:text="eg City, Country"
+android:textSize="18sp"
+android:layout_x="69px"
+android:layout_y="216px"
+android:id="@+id/locationInput">
+</EditText>
+<Button
+android:id="@+id/getReport"
+android:layout_width="290px"
+android:layout_height="wrap_content"
+android:text="Fetch weather report!"
+android:layout_x="16px" android:layout_y="370px">
+</Button>
+</AbsoluteLayout>
